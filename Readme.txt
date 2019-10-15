@@ -1,4 +1,4 @@
-In our infection simulation, the main tasks are: 1) create population graphs of two countries, find the highly connected clusters in each country, and split country into clusters 2) choose some people from a list of people on the critical edges, infect them. Then spread infection one layer outward each time. 
+In this network epidemiology simulation, the main tasks are: 1) create population graphs of two countries, find the highly connected clusters in each country, and split country into clusters 2) choose some people from a list of people on the critical edges, infect them. Then spread infection one layer outward each time. 
 In the version “FinalVirusModel,” inoculation occurs automatically after two rounds of infection. 
 In “SlightlyDiffVersion,” the moment of inoculation is decided by user via button-click. There is a time lag between the click and when inoculation takes effect. Thus, if user clicks “start infection” during that lag time, it is uncertain whether the virus or the inoculation would travels faster and take effect first. 
 That’s the only different between “FinalVirusModel” and “SlightlyDiffVersion.”
